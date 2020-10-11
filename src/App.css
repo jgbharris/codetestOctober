@@ -3,9 +3,10 @@
   font-family: "Helvetica Neue";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoText {
+  text-align: center;
+  width: 100%;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

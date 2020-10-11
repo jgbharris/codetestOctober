@@ -5,8 +5,9 @@ import ImageCardSection from './ImageCardSection.js';
 
 
 
-const NavSubMenu = (props) => (
-    <Container>
+const NavSubMenu = (props) => {
+    return (
+        <Container>
         <Row>
             <Col>
                 <SubMenuList></SubMenuList>
@@ -20,7 +21,11 @@ const NavSubMenu = (props) => (
         </Row>
     </Container>
 
-)
+    )
+   
+}
+    
+
 
 
 export default NavSubMenu

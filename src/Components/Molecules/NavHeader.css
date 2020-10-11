@@ -1,11 +1,14 @@
 
-
+.headerContainer {
+  height: 30px;
+}
   .navList {
     display: inline;
     list-style-type: none;
     color: black;
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     padding-left: 50px;
     font-weight: bold;
+    text-transform: uppercase;
 }

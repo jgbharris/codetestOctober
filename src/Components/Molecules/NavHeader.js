@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListItem from '/Users/jamesharris/Desktop/Code tests/end-clothing-codetest/end-clothing/src/Components/Atoms/ListItem.js'
+import ListItem from '/Users/jamesharris/Desktop/Code tests/end-clothing-codetest/end-clothing/src/Components/Atoms/ListItem.js';
 import './NavHeader.css';
 
 
@@ -36,14 +36,6 @@ const initialList = [
     id: 'd',
     firstname: 'Sale',
   },
-  {
-    id: 'd',
-    firstname: 'Launches',
-  },
-  {
-    id: 'd',
-    firstname: 'Features',
-  },
   ];
 
 const NavHeader = () => {
@@ -51,7 +43,7 @@ const NavHeader = () => {
    
     return (
       // console.log("list", list);
-      <div>
+      <div className = "headerContainer">
         <ul >
           {list.map(item => (
             <li  className = "navList" key={item.id} item={item.firstname} >{item.firstname}</li>
