@@ -1,0 +1,21 @@
+.Category {
+    color: black;
+    font-size: 10px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: center;
+
+
+}
+
+/* .Navbar {
+    width:
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+} */
+
