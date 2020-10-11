@@ -1,0 +1,11 @@
+
+
+  .navList {
+    display: inline;
+    list-style-type: none;
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: bold;
+}

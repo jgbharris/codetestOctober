@@ -26,7 +26,8 @@ const SubMenuList = () => {
  
   return (
     <div>
-      <ul>
+
+      <ul className = "list" >
         {list.map(item => (
           <ListItem key={item.id} item={item.firstname} />
         ))}

@@ -4,10 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './ImageCardSection.css';
 
 
+
 const ImageCardSection = (props) => (
     <Container>
         <Row>
-            <Col md={{ span: 3, offset: 6 }}>
+            <Col>
                 <Card className="card">
                     <Card.Img variant="top" src="https://media.endclothing.com/media/catalog/category/25-04-19_Dropdown_Latest_CavEmpt.jpg" />
                     <Card.Body>
@@ -15,7 +16,7 @@ const ImageCardSection = (props) => (
                     </Card.Body>
                 </Card>
             </Col>
-            <Col md={{ span: 3 }}>
+            <Col >
                 <Card className="card">
                     <Card.Img variant="top" src="https://media.endclothing.com/media/catalog/category/25-04-19_Dropdown_Latest_CavEmpt.jpg" />
                     <Card.Body>
@@ -25,7 +26,7 @@ const ImageCardSection = (props) => (
             </Col>
         </Row>
         <Row >
-            <Col md={{ span: 3, offset: 6 }}>
+            <Col>
                 <Card className="card">
                     <Card.Img variant="top" src="https://media.endclothing.com/media/catalog/category/25-04-19_Dropdown_Latest_CavEmpt.jpg" />
                     <Card.Body>
@@ -33,7 +34,7 @@ const ImageCardSection = (props) => (
                     </Card.Body>
                 </Card>
             </Col>
-            <Col md={{ span: 3 }}>
+            <Col >
                 <Card className="card">
                     <Card.Img variant="top" src="https://media.endclothing.com/media/catalog/category/25-04-19_Dropdown_Latest_CavEmpt.jpg" />
                     <Card.Body>
