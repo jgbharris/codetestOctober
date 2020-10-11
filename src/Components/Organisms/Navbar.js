@@ -15,7 +15,7 @@ const renderMenu = items => {
   }
 
   const categories = Object.values(testData.navCatagories)
-  const categoryChildren =  categories.forEach(index => console.log("element children 1", index.children_data))
+  // const categoryChildren =  categories.forEach(index => console.log("element children 1", index.children_data))
 
 
   

@@ -1,7 +1,16 @@
 
 .list {
+    display: inline-block;
     list-style-type: none;
     color: black;
     font-size: 12px;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subMenuListItem {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

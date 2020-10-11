@@ -2,23 +2,26 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ListItem from '/Users/jamesharris/Desktop/Code tests/end-clothing-codetest/end-clothing/src/Components/Atoms/ListItem.js'
 import './SubMenuList.css';
+import testData from '../../testData.js';
 
-const initialList = [{
-  id: 'a',
-  firstname: 'Robin',
-},
-{
-  id: 'b',
-  firstname: 'Dave',
-},
-{
-  id: 'c',
-  firstname: 'Jim',
-},
-{
-  id: 'd',
-  firstname: 'Matt',
-},
+const initialList = [
+  {
+    id: 'a',
+    name: 'New This Week',
+  },
+  {
+    id: 'b',
+    name: 'Latest Sneakers',
+  },
+  {
+    id: 'c',
+    name: 'Latest Women',
+  },
+  {
+    id: 'd',
+    name: 'Latest Kids',
+  },
+  // testData.navCatagories
 ];
 
 const SubMenuList = () => {
@@ -26,10 +29,14 @@ const SubMenuList = () => {
  
   return (
     <div>
+      {console.log("testData.navCatagories", testData.navCatagories)}
 
       <ul className = "list" >
         {list.map(item => (
-          <ListItem key={item.id} item={item.firstname} />
+          <div className = "subMenuListItem">
+            <ListItem key={item.id} item={item.name} />
+          </div>
+          
         ))}
       </ul>
     </div>
