@@ -1,0 +1,23 @@
+/* .Image-Container {
+    display: grid;
+    grid-auto-columns: 210px;
+    grid-auto-flow: column;
+    grid-column-start: 4;
+    column-gap: 20px;
+    grid-template-rows: repeat(2, 170px);
+    margin-left: auto;
+    overflow: hidden;
+} */
+
+.cardContainer {
+    width: 25%;
+}
+
+.card {
+    border: none;
+}
+
+.title {
+    font-size: 12px;
+}
+

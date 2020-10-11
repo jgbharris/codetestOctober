@@ -1,5 +1,5 @@
 import React from 'react';
-import testData from './testData.js';
+import testData from '../../testData.js';
 import './Navbar.css';
 
 
