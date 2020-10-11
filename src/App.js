@@ -14,16 +14,36 @@ import logo from './End-Logo.jpeg';
 
 class App extends React.Component {
 
-  render () {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHidden: false
+    }
+  }
+
+  toggleHidden() {
+    console.log("toggle running")
+    this.setState({
+      isHidden: !this.state.isHidden
+
+    })
+  }
+
+  render() {
+    console.log("this.state.isHidden", this.state.isHidden)
     return (
       <div className="App">
         <div className="logo">
-         <h1 className= "logoText" onClick={this.toggleHidden}>END .</h1>
-      </div>
-        <NavHeader></NavHeader>
-        <NavSubMenu></NavSubMenu>
+          <h1 className="logoText">END .</h1>
+        </div>
+        <div onClick={this.toggleHidden.bind(this)}>
+          <NavHeader ></NavHeader>
+        </div>
+
+        <NavSubMenu isHidden={this.state.isHidden}></NavSubMenu>
       </div>
     );
+
 
   }
 }

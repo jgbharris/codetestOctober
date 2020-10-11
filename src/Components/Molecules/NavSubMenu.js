@@ -6,22 +6,23 @@ import ImageCardSection from './ImageCardSection.js';
 
 
 const NavSubMenu = (props) => {
-    return (
-        <Container>
-        <Row>
-            <Col>
-                <SubMenuList></SubMenuList>
-            </Col>
-            <Col>
-                <SubMenuList></SubMenuList>
-            </Col>
-            <Col xs={6}>
-                <ImageCardSection></ImageCardSection>
-            </Col>
-        </Row>
-    </Container>
-
-    )
+    if(!props.isHidden) {
+        return <Container>
+            <Row>
+                <Col>
+                    <SubMenuList></SubMenuList>
+                </Col>
+                <Col>
+                    <SubMenuList></SubMenuList>
+                </Col>
+                <Col xs={6}>
+                    <ImageCardSection></ImageCardSection>
+                </Col>
+            </Row>
+        </Container>
+    } else {
+        return null
+    }
    
 }
     

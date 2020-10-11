@@ -6,35 +6,35 @@ import './NavHeader.css';
 const initialList = [
   {
     id: 'a',
-    firstname: 'Latest',
+    name: 'Latest',
   },
   {
     id: 'b',
-    firstname: 'Brands',
+    name: 'Brands',
   },
   {
     id: 'c',
-    firstname: 'Clothing',
+    name: 'Clothing',
   },
   {
     id: 'd',
-    firstname: 'Footwear',
+    name: 'Footwear',
   },
   {
-    id: 'b',
-    firstname: 'Accessories',
+    id: 'e',
+    name: 'Accessories',
   },
   {
-    id: 'c',
-    firstname: 'Lifestyle',
+    id: 'f',
+    name: 'Lifestyle',
   },
   {
-    id: 'd',
-    firstname: 'Gifts',
+    id: 'g',
+    name: 'Gifts',
   },
   {
-    id: 'd',
-    firstname: 'Sale',
+    id: 'h',
+    name: 'Sale',
   },
   ];
 
@@ -42,11 +42,10 @@ const NavHeader = () => {
     const [list, setList] = React.useState(initialList);
    
     return (
-      // console.log("list", list);
       <div className = "headerContainer">
         <ul >
           {list.map(item => (
-            <li  className = "navList" key={item.id} item={item.firstname} >{item.firstname}</li>
+            <li  className = "navList" key={item.id} item={item.firstname} >{item.name}</li>
           ))}
         </ul>
       </div>
