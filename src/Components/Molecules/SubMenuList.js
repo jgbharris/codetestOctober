@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import ListItem from '/Users/jamesharris/Desktop/Code tests/end-clothing-codetest/end-clothing/src/Components/Atoms/ListItem.js'
+import ListItem from '../Atoms/ListItem.js'
 import './SubMenuList.css';
 import testData from '../../testData.js';
 

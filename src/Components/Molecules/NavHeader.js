@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ListItem from '/Users/jamesharris/Desktop/Code tests/end-clothing-codetest/end-clothing/src/Components/Atoms/ListItem.js';
+import React from "react";
 import './NavHeader.css';
 
 
